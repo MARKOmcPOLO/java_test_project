@@ -1,5 +1,7 @@
-class SecondProject{
-	public static void main (String[] args){
-		System.out.println("What's up, Dude?");
-	}
+class SecondProject {
+    public static void main(String[] args) {
+
+        Hexagon hex = new Hexagon(5);
+        System.out.println("S = " + hex.squareHex());
+    }
 }
